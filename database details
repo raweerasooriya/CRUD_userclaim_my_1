@@ -1,0 +1,18 @@
+Database: userclaim
+Table: claim
+
+Id
+first_name
+last_name
+userId
+gender
+address
+phone_number
+email
+amount
+typesClaims
+
+
+................
+
+SELECT Id, first_name, last_name, userId, gender, address, phone_number, email, amount, typesClaims FROM claim WHERE 1
